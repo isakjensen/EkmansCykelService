@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    main {
+        @apply flex flex-col min-h-screen overflow-hidden bg-gray-100
+    }
+
+    .nav-link {
+        @apply transition duration-200 ease-in-out border border-black border-opacity-0 hover:border-opacity-20 rounded-lg px-6 py-2
+    }
+}
