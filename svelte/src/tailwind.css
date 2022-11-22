@@ -12,4 +12,12 @@
     .nav-link {
         @apply transition duration-200 ease-in-out border border-black border-opacity-0 hover:border-opacity-20 rounded-lg px-6 py-2
     }
+
+    li {
+        list-style: none;
+    }
+
+    .activeLink {
+        @apply bg-black bg-opacity-5
+    }
 }

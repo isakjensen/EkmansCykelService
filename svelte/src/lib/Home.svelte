@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { Link } from "svelte-navigator";
+
     import ServiceItem from './utils/ServiceItem.svelte'
 </script>
 
@@ -11,7 +13,7 @@
           </div>
           <h1 class="md:mx-auto mb-8 text-2xl md:text-4xl font-semibold leading-none tracking-normal text-black lg:w-1/2 title-font">Välkommen till <span class="text-sky-600">Ekmans Cykel</span></h1>
           <p class="mx-auto text-xl font-medium leading-relaxed text-gray-700 lg:w-4/6">Vi bedriver en cykelverkstad på <span class="font-bold">Norra Fäladen</span> där vi reparerar och säljer cyklar. När du köper en cykel så får du gratis reperation framöver. Vi har <span class="font-bold">20 års erfarenhet</span> och vi lovar dig all hjälp med din cykel.</p>
-          <a class="md:mx-auto mt-8 text-xl text-sky-600 hover:text-sky-500 cursor-pointer" href="#tjanster" title="Läs mer">Hitta oss!</a>
+          <Link class="md:mx-auto mt-8 text-xl text-sky-600 hover:text-sky-500 cursor-pointer" to="/hitta-hit" >Hitta oss!</Link>
         </div>
     </div>
     <!-- Tjänster -->

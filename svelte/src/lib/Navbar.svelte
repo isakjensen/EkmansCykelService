@@ -1,5 +1,23 @@
 <script lang="ts">
     import { Link } from "svelte-navigator";
+
+    
+    interface NavbarLink {
+        url: string,
+        title: string,
+    }
+    
+    let path: string = window.location.pathname
+    
+    let paths: NavbarLink[] = [
+        { url: "/", title: "Hem" },
+        { url: "/hitta-hit", title: "Hitta hit" },
+        { url: "/kontakt", title: "Kontakta oss" },
+    ]
+
+    const updatePath = function(link: NavbarLink) {
+        path = link.url
+    }
 </script>
 
 <nav class="flex flex-row justify-between text-sm md:text-2xl px-2 md:px-8 lg:px-24 xl:px-64 2xl:px-96 p-12">
@@ -13,8 +31,8 @@
         </svg>
     </div>
     <div class="flex flex-row gap-0 md:gap-4 lg:gap-8 my-auto text-gray-600 font-medium">
-        <Link class="nav-link" to="/" >Hem</Link>
-        <Link class="nav-link" to="/hitta-hit" >Hitta hit</Link>
-        <Link class="nav-link" to="/kontakt" >Kontakta oss</Link>
+        {#each paths as p}
+            <Link class="nav-link {path === p.url ? 'activeLink' : ''}" to={p.url} on:click={() => updatePath(p)}>{p.title}</Link>
+        {/each}
     </div>
 </nav>
