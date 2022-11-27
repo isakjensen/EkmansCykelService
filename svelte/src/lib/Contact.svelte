@@ -29,7 +29,7 @@
         </div>
     </section>
     <!-- Images -->
-    <div class="container flex flex-col xl:flex-row gap-8 items-center mx-auto px-4 py-8 pb-12" id="tjanster">
+    <div class="container flex flex-col xl:flex-row gap-8 items-center mx-auto px-4 py-8 pb-5 xl:pb-12" id="tjanster">
         <img src={FrontImage} alt="" class="rounded w-full lg:w-3/4 xl:w-2/4">
         <img src={SideImage} alt="" class="rounded w-full lg:w-3/4 xl:w-2/4">
     </div>
