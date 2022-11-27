@@ -15,8 +15,8 @@
     </div>
     </div>
     <!-- Tjänster -->
-    <div class="container flex flex-col items-center mx-auto" id="tjanster">
-        <img src={MapImage} alt="" class="w-full border-2 border-black border-opacity-10 rounded hidden xl:block">
-        <img src={MapMobileImage} alt="" class="w-full border-2 border-black border-opacity-10 rounded block xl:hidden">
+    <div class="container flex flex-col items-center px-4 mx-auto" id="tjanster">
+        <img src={MapImage} alt="" class="w-full rounded hidden xl:block">
+        <img src={MapMobileImage} alt="" class="w-full rounded block xl:hidden">
     </div>
 </div>
