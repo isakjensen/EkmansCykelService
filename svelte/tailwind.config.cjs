@@ -10,6 +10,9 @@ module.exports = {
       sans: ["Roboto Condensed"],
     },
     extend: {
+      colors: {
+        "theme-purple": "#362560"
+      }
     },
   },
   plugins: [],
