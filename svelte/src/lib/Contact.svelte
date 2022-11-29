@@ -6,14 +6,14 @@
 </script>
 
 <div class="flex flex-col flex-grow text-sm md:text-md">
-    <section class="flex flex-col flex-grow text-sm md:text-md px-2 md:px-8 lg:px-24 xl:px-64 lg:pt-24 lg_pb-12">
+    <section class="flex flex-col flex-grow text-sm md:text-md px-2 md:px-8 lg:px-16 xl:px-36 2xl:px-52 pt-28">
         <!-- Välkommen -->
         <div class="container flex flex-col items-center px-5 mx-auto">
             <div class="flex flex-col w-full mb-12 text-left md:text-center">
             <div class="inline-flex items-center justify-center flex-shrink-0 text-4xl mx-auto mb-8 text-gray-700 bg-blueGray-100 rounded-full">
                 <i class="invisible md:visible fad fa-car-bus"></i>
             </div>
-            <h1 class="md:mx-auto mb-8 text-2xl md:text-4xl font-semibold leading-none tracking-normal text-black lg:w-1/2 title-font">Har du frågor? Kontakta oss så <span class="text-purple-800">hjälper vi dig!</span></h1>
+            <h1 class="md:mx-auto mb-8 text-3xl md:text-4xl font-semibold leading-none tracking-normal text-black lg:w-1/2 title-font">Har du frågor? Kontakta oss så <span class="text-purple-800">hjälper vi dig!</span></h1>
             <p class="mx-auto text-xl font-medium leading-relaxed text-gray-700 lg:w-4/6">Har du frågor gällande reparation, köp eller service av cykel? Kontakta oss, här är våra kontaktuppgifter!</p>
             
             </div>

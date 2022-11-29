@@ -15,8 +15,8 @@
                     <ul class="list-none">
                         <li>Skarpskyttevägen 2G</li>
                         <li class="pb-3">226 42 Lund</li>
-                        <li>046-13 67 11</li>
-                        <li>info@ekmanscykel.se</li>
+                        <li class="pb-2 hover:text-white"><a href={"tel:+46136711"}>046-13 67 11</a></li>
+                        <li class="pb-2 hover:text-white"><a href={"mailto:info@ekmanscykel.se"}>info@ekmanscykel.se</a></li>
                     </ul>
                 </div>
             </div>

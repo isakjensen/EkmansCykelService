@@ -431,6 +431,11 @@ main{
   letter-spacing: 0.025em;
 }
 
+h1:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .nav-link{
   border-radius: 0.5rem;
   border-width: 2px;
@@ -619,12 +624,12 @@ li {
   position: fixed;
 }
 
-.relative{
-  position: relative;
-}
-
 .top-0{
   top: 0px;
+}
+
+.right-full{
+  right: 100%;
 }
 
 .mx-auto{
@@ -729,10 +734,6 @@ li {
   justify-content: flex-start;
 }
 
-.justify-end{
-  justify-content: flex-end;
-}
-
 .justify-center{
   justify-content: center;
 }
@@ -792,6 +793,11 @@ li {
   padding-right: 0.5rem;
 }
 
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -843,6 +849,14 @@ li {
   padding-top: 1.5rem;
 }
 
+.pt-28{
+  padding-top: 7rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -857,9 +871,9 @@ li {
   line-height: 2.5rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-xl{
@@ -872,9 +886,9 @@ li {
   line-height: 1.75rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-semibold{
@@ -930,9 +944,9 @@ li {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-sky-500:hover{
+.hover\:text-white:hover{
   --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-theme-purple:hover{
@@ -940,9 +954,9 @@ li {
   color: rgb(54 37 96 / var(--tw-text-opacity));
 }
 
-.hover\:text-white:hover{
+.hover\:text-sky-500:hover{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){
@@ -1062,9 +1076,14 @@ li {
     gap: 2rem;
   }
 
-  .lg\:px-24{
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .lg\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:py-16{
@@ -1072,9 +1091,9 @@ li {
     padding-bottom: 4rem;
   }
 
-  .lg\:py-24{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+  .lg\:px-24{
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .lg\:pt-24{
@@ -1108,6 +1127,11 @@ li {
     flex-direction: row;
   }
 
+  .xl\:px-36{
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
   .xl\:px-64{
     padding-left: 16rem;
     padding-right: 16rem;
@@ -1124,9 +1148,9 @@ li {
     margin-right: auto;
   }
 
-  .\32xl\:px-96{
-    padding-left: 24rem;
-    padding-right: 24rem;
+  .\32xl\:px-52{
+    padding-left: 13rem;
+    padding-right: 13rem;
   }
 
   .\32xl\:px-56{
@@ -1134,9 +1158,9 @@ li {
     padding-right: 14rem;
   }
 
-  .\32xl\:px-72{
-    padding-left: 18rem;
-    padding-right: 18rem;
+  .\32xl\:px-96{
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 
   .\32xl\:text-center{

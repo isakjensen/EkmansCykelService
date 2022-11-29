@@ -9,6 +9,10 @@
         @apply flex flex-col min-h-screen overflow-hidden bg-gray-100 tracking-wide
     }
 
+    h1 {
+        @apply focus:outline-none
+    }
+
     .nav-link {
         @apply transition duration-200 ease-in-out border-2 border-white border-opacity-0 hover:border-opacity-20 rounded-lg px-6 py-2
     }
