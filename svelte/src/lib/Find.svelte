@@ -1,6 +1,5 @@
 <script lang="ts">
-    import MapImage from '/images/Map.png'
-    import MapMobileImage from '/images/MapMobile.png'
+  import { menuOpen } from '../stores';
 </script>
 
 <div class="flex flex-col flex-grow text-sm md:text-md px-2 md:px-8 lg:px-24 xl:px-64 2xl:px-96 lg:py-24">
@@ -16,8 +15,8 @@
     </div>
     <!-- Tjänster -->
     <div class="container flex flex-col items-center px-4 mx-auto" id="tjanster">
-        <!-- <img src={MapImage} alt="" class="w-full rounded hidden xl:block">
-        <img src={MapMobileImage} alt="" class="w-full rounded block xl:hidden"> -->
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="676" id="gmap_canvas" src="https://maps.google.com/maps?q=Ekmans%20Cykel&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:676px;width:1080px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:676px;width:1080px;}</style></div></div>
+      {#if $menuOpen == false}
+        <div class="mapouter"><div class="gmap_canvas"><iframe title="map" width="1080" height="676" id="gmap_canvas" src="https://maps.google.com/maps?q=Ekmans%20Cykel&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:676px;width:1080px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:676px;width:1080px;}</style></div></div>
+      {/if}
     </div>
 </div>

@@ -24,10 +24,9 @@
                 <div class="text-xl text-white font-medium">Följ oss</div>
                 <div class="text-lg text-purple-300">
                     <ul class="list-none md:list-disc li-color-gray list-inside text-purple-300 font-medium">
-                        <li class="pb-2 hover:text-sky-500"><a href="">Facebook</a></li>
-                        <li class="pb-2 hover:text-sky-500"><a href="">Instagram</a></li>
-                        <li class="pb-2 hover:text-sky-500"><a href="">Twitter</a></li>
-                        <li class="pb-2 hover:text-sky-500"><a href="">LinkedIn</a></li>
+                        <li class="pb-2 hover:text-white"><a href="https://www.facebook.com/profile.php?id=100057412151965" target="_blank" rel="noreferrer">Facebook</a></li>
+                        <li class="pb-2 hover:text-white"><a href="https://www.eniro.se/ekmans+cykel+%26+service+lund/13183954/firma" target="_blank" rel="noreferrer">Eniro</a></li>
+                        <li class="pb-2 hover:text-white"><a href="https://www.google.com/search?q=ekmans+cykel+google&rlz=1C1BYYL_svSE981SE981&sxsrf=ALiCzsZrKVZsS0p6YWDlcUO9CH02UkxadQ%3A1669718947107&ei=o-OFY8uQBqiJxc8P4rmUuAQ&ved=0ahUKEwiL7t3lm9P7AhWoRPEDHeIcBUcQ4dUDCA8&uact=5&oq=ekmans+cykel+google&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAE6CAgAEKIEELADOgYIABAWEB46BQgAEIYDOgQIIRAVOgcIIRCgARAKSgQIQRgBSgQIRhgAUOcFWIIKYMUKaAJwAHgAgAFjiAG8A5IBATaYAQCgAQHIAQLAAQE&sclient=gws-wiz-serp#lrd=0x465396320f7b976d:0x998f1fcf29b2e65d,1,,," target="_blank" rel="noreferrer">Recensioner</a></li>
                     </ul>
                 </div>
             </div>

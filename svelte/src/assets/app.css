@@ -619,6 +619,10 @@ li {
   position: fixed;
 }
 
+.relative{
+  position: relative;
+}
+
 .top-0{
   top: 0px;
 }
@@ -651,10 +655,6 @@ li {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.block{
-  display: block;
 }
 
 .flex{
@@ -940,6 +940,11 @@ li {
   color: rgb(54 37 96 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1062,14 +1067,14 @@ li {
     padding-right: 6rem;
   }
 
-  .lg\:py-24{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .lg\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:pt-24{
@@ -1087,16 +1092,8 @@ li {
 }
 
 @media (min-width: 1280px){
-  .xl\:block{
-    display: block;
-  }
-
   .xl\:flex{
     display: flex;
-  }
-
-  .xl\:hidden{
-    display: none;
   }
 
   .xl\:w-2\/4{

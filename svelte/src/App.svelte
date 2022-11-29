@@ -30,6 +30,6 @@
     </Route>
 
     <!-- Footer -->
-    <Footer class="justify-end" />
+    <Footer />
   </main>
 </Router>

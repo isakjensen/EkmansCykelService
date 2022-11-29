@@ -1,5 +1,6 @@
 <script lang="ts">
     import { Link } from "svelte-navigator";
+    import { menuOpen } from '../stores';
 
     import LogoWhite from '/images/LogoWhite.png'
     
@@ -9,7 +10,6 @@
     }
     
     let path: string = window.location.pathname
-    let menuOpen: boolean = false
     
     let paths: NavbarLink[] = [
         { url: "/", title: "Hem" },
@@ -19,11 +19,11 @@
 
     export const updatePath = function(url: string) {
         path = url
-        menuOpen = false
+        $menuOpen = false
     }
 
     const toggleMenu = function() {
-        menuOpen = !menuOpen
+        $menuOpen = !$menuOpen
     }
 </script>
 
@@ -50,9 +50,9 @@
             </button>
             <h1 class="text-white text-2xl my-auto">Ekmans Cykel & Service</h1>
         </div>
-        <div class="bg-white flex flex-grow flex-col pt-6 {menuOpen ? 'flex' : 'hidden'}">
+        <div class="bg-white flex flex-grow flex-col pt-6 {$menuOpen ? 'flex' : 'hidden'}">
             {#each paths as p}
-                <Link class="nav-link-mobile {path === p.url ? 'activeLinkMobile' : ''}" to={p.url} on:click={() => updatePath(p)}>{p.title}</Link>
+                <Link class="nav-link-mobile {path === p.url ? 'activeLinkMobile' : ''}" to={p.url} on:click={() => updatePath(p.url)}>{p.title}</Link>
             {/each}
         </div>
     </section>

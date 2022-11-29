@@ -15,7 +15,7 @@
           </div>
           <h1 class="md:mx-auto mb-8 text-2xl md:text-4xl font-semibold leading-none tracking-normal text-black lg:w-1/2 title-font">Välkommen till <span class="text-purple-800">Ekmans Cykel & Service</span></h1>
           <p class="mx-auto text-xl font-medium leading-relaxed text-gray-700 lg:w-4/6">Vi bedriver en cykelverkstad på <span class="font-bold">Norra Fäladen</span> där vi reparerar och säljer cyklar. När du köper en cykel så får du gratis reperation framöver. Vi har <span class="font-bold">30 års erfarenhet</span> och arbetar dagligen i Sveriges cykelvänligaste stad med reparation och försäljning av cyklar. Vi har öppet <span class="font-bold">Måndag till Fredag</span>, <span class="font-bold">08.00 till 18.00</span>!</p>
-          <Link class="md:mx-auto mt-8 text-3xl text-purple-800 hover:text-theme-purple cursor-pointer" to="/hitta-hit" on:click={() => updatePath("/hitta-hit")}>Hitta oss!</Link>
+          <Link class="md:mx-auto mt-8 text-2xl text-purple-800 hover:text-theme-purple cursor-pointer" to="/hitta-hit" on:click={() => updatePath("/hitta-hit")}>Hitta oss!</Link>
         </div>
     </div>
     <!-- Tjänster -->
