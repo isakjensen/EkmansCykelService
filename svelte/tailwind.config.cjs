@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Roboto Condensed"],
+        sans: ["Poppins"],
     },
     extend: {
       colors: {
