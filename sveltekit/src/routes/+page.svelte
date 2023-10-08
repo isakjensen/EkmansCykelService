@@ -27,7 +27,7 @@
 
                 <ServiceItem title={"Våran expertis"} body={"Under 30 år har vi bedrivit reparation och försäljning av cyklar i norra Lund, till dem bästa priserna och den kortaste leveranstiden. Lämna in din cykel idag och få tillbaka den samma eller dagen därpå!"}/>
 
-                <ServiceItem title={"Studentrabatt"} body={"Är du student i Lund och behöver reparation på din cykel? Då erbjuder vi 10% rabatt på alla reparationer över 200kr - så glöm inte ditt studentleg!"}/>
+                <ServiceItem title={"Studentrabatt"} body={"Är du student i Lund och behöver reparation på din cykel? Då erbjuder vi 10% rabatt på alla reparationer över 299kr - så glöm inte ditt studentleg!"}/>
             </div>
         </div>
     </div>
